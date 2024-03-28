@@ -1,7 +1,7 @@
 import requests
 
 # 获取直播源链接
-url = "https://wekh.eu.org/iptv/txt/fmml_ipv6.txt"
+url = "https://wekh.top/iptv/txt/fmml_ipv6.txt"
 response = requests.get(url)
 playlist = response.text
 
