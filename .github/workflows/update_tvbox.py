@@ -3,7 +3,7 @@ import json
 
 try:
     # 获取原始内容
-    url = "https://wekh.eu.org/tvbox/fan.json"
+    url = "https://wekh.top/tvbox/fan.json"
     response = requests.get(url)
     
     # 检查响应状态码
