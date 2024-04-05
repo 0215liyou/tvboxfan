@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+    <title>Proxy</title>
+</head>
+<body>
+    <script>
+        fetch('http://www.饭太硬.top/tv/')
+            。then(response => response.text())
+            。then(data => {
+                // 将获取到的数据传递给主页面
+                window.parent.postMessage(data, '*');
+            })
+            。catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
