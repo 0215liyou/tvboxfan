@@ -19,7 +19,7 @@
         .input-group {
             margin-bottom: 20px;
         }
-        .loading {
+        。loading {
             display: none;
             margin-top: 20px;
         }
